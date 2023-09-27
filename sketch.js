@@ -11,12 +11,6 @@ function draw() {
   
   randomSeed(90);
 
-  for (let i = 0; i < numCircles; i++) {
-    let x = random(width);
-    let y = random(height);
-    let dim = 15;
-    ellipse(x, y, dim, dim);
-  }
 
   for (let i = 0; i < numCircles; i++) {
     let x1 = random(width);
